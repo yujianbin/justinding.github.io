@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用Dropzone和七牛云存储来优化博客图床
+title: 使用 Dropzone 和七牛云存储获得图片公共链接
 category: Blog
 tags: Blog
 keywords: Dropzone,Qiniu,七牛,博客
@@ -46,7 +46,8 @@ description:
     ```
     sudo gem install qiniu
     ```
-   **OS X 10.11 后的新系统安装报错？查看解决办法。**
+  
+   **OS X 10.11 后的新系统安装报错？查看解决办法：**
    
    
    - 重启 Mac ，按住 Command＋R进入恢复模式。在 实用工具 内找到 终端 启动运行输入
