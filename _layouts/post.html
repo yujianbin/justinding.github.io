@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post container">
+  <div class="post-meta">
+    <span class="post-meta-span date">{{ page.date | date:"%Y %B %d" }}</span>
+    {% if page.tags.size > 0 %}
+    <span class="post-meta-span tag">{{ page.tags | join: ', ' }}</span>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+</article>
+
+<div class="post-share">
+  <div class="container">
+    <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}" target="_blank" class="post-share-icon twitter"></a>
+    <a href="https://www.evernote.com/clip.action?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}" target="_blank" class="post-share-icon evernote"></a>
+    <a href="http://service.weibo.com/share/share.php?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}" target="_blank" class="post-share-icon weibo"></a>
+    <body>
+        <div class="ds-thread" data-thread-key={{ page.id }} data-title={{ page.title }} data-url=justinding.org/{{ page.url }}></div>
+      <script type="text/javascript">
+      var duoshuoQuery = {short_name:"justinding"};
+        (function() {
+          var ds = document.createElement('script');
+          ds.type = 'text/javascript';ds.async = true;
+          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.unstable.js';
+          ds.charset = 'UTF-8';
+          (document.getElementsByTagName('head')[0] 
+           || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+        </script>
+    </body>
+  </div>
+</div>
+
+{% if site.disqus.shortname %}
+<div class="comment container">
+  <div id="disqus_thread">
+    <a href=""></a>
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,39 @@
+# Site settings
+title: 贾斯丁的博客
+email: 8032780@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  贾斯丁的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://justingding.org" # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+# Social account
+twitter: JustinOsX
+# weibo:    ID
+github: justinding
+# codepen:  username
+# dribbble: username
+
+# avatar头像及Favicon
+avatar: http://image.weiosx.com/58_avatar_big.jpg
+favicon: http://image.weiosx.com/Justin%20Ding_vCard.icns
+
+# disqus 设置
+disqus:
+  shortname: justinding
+
+# google analytics 设置
+ga:
+  id: UA-60600385-1
+  url: justinding.org
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
