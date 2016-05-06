@@ -2,8 +2,8 @@
 layout: post
 title: Mac OS X 系统移植游戏运行的注意事项
 category: Mac
-tags: Mac, 移植游戏, XQuartz
-keywords: Mac,移植游戏,XQuartz
+tags: Mac, 移植游戏, XQuartz, Wine
+keywords: Mac,移植游戏,XQuartz,Wine
 
 description: 
 ---
