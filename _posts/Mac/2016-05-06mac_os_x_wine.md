@@ -2,8 +2,9 @@
 layout: post
 title: Mac OS X 系统移植游戏运行的注意事项
 category: Mac
-tags: [Mac, 移植游戏, XQuartz] 
+tags: Mac, 移植游戏, XQuartz
 keywords: Mac,移植游戏,XQuartz
+
 description: 
 ---
 > 谁说 Mac 设备游戏少，玩游戏效果差？WeiOSX团队移植了一些经典游戏，兼容性越来越稳定，希望Mac用户喜欢。这次测试的设备是 2014年末的 MacBook Air 13寸 低配。运行经典游戏 《鬼泣三－但丁觉醒特别中文版》for Mac
