@@ -5,6 +5,10 @@ category: Mac
 tags: Mac, 移植游戏, XQuartz, Wine, 奥日与迷失森林, Ori,
 keywords: Mac,移植游戏,XQuartz,Wine,奥日与迷失森林,Ori,
 
+description: 
+---
+
+
 # 奥日与迷失森林：终极版 For Mac 中文移植版
 
 ![图片](http://7xi7a2.com1.z0.glb.clouddn.com/%E5%A5%A5%E6%97%A5%E4%B8%8E%E8%BF%B7%E5%A4%B1%E6%A3%AE%E6%9E%97%E7%BB%88%E6%9E%81%E7%89%88.jpg)
